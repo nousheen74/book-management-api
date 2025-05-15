@@ -1,0 +1,332 @@
+{
+	"info": {
+		"_postman_id": "39a40aa1-168c-4607-8740-b09645bb0931",
+		"name": "book_management_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39309163",
+		"_collection_link": "https://blue-meadow-765654.postman.co/workspace/Nousheen-Shaik~d8941597-1eff-41c4-82ca-84dfcc32430f/collection/39309163-39a40aa1-168c-4607-8740-b09645bb0931?action=share&source=collection_link&creator=39309163"
+	},
+	"item": [
+		{
+			"name": "GET request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/books/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET request example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/books/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"books",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": "[\n    {\n        \"id\": \"58f072ae-49fe-4615-877e-11db6e7f5d32\",\n        \"title\": \"The White Tiger\",\n        \"author\": \"Aravind Adiga\",\n        \"publishedYear\": 2003\n    },\n    {\n        \"id\": \"45536888-b7fc-4532-bd9b-04973b6fb313\",\n        \"title\": \"The Alchemist (Updated)\",\n        \"author\": \"Paulo Coelho\",\n        \"publishedYear\": 1997\n    },\n    {\n        \"id\": \"a106b13e-f2bf-45ed-9562-b5e235fd87cf\",\n        \"title\": \"Midnight's Children\",\n        \"author\": \"Salman Rushdie\",\n        \"publishedYear\": 1981\n    },\n    {\n        \"id\": \"0495ac78-f212-48d0-8e17-f3bfd705c145\",\n        \"title\": \"Train to Pakistan\",\n        \"author\": \"Khushwant Singh\",\n        \"publishedYear\": 1956\n    },\n    {\n        \"id\": \"58e75a7b-600b-4a6a-8174-dad597ee9465\",\n        \"title\": \"The Blue Umbrella\",\n        \"author\": \"Ruskin Bond\",\n        \"publishedYear\": 1974\n    },\n    {\n        \"id\": \"5267fc82-44ac-43e9-aae0-db513f1e91ae\",\n        \"title\": \"To Kill a Mockingbird\",\n        \"author\": \"Harper Lee\",\n        \"publishedYear\": 1960\n    },\n    {\n        \"id\": \"42c162dc-b71a-4371-acce-21c75e99284b\",\n        \"title\": \"1984\",\n        \"author\": \"George Orwell\",\n        \"publishedYear\": 1949\n    },\n    {\n        \"id\": \"0a3c2cd3-567b-4c15-ae53-12068448bcd3\",\n        \"title\": \"Pride and Prejudice\",\n        \"author\": \"Jane Austen\",\n        \"publishedYear\": 1813\n    },\n    {\n        \"id\": \"ef6cb791-8394-4c23-8dae-bcf7d4d8ad9b\",\n        \"title\": \"The Catcher in the Rye\",\n        \"author\": \"J.D. Salinger\",\n        \"publishedYear\": 1951\n    },\n    {\n        \"id\": \"e4ba5dad-877e-4c3e-bac2-10c2fd9add3a\",\n        \"title\": \"The Great Gatsby\",\n        \"author\": \"F. Scott Fitzgerald\",\n        \"publishedYear\": 1925\n    },\n    {\n        \"id\": \"894acaa4-0a5a-4d12-898c-1dc0be36254a\",\n        \"title\": \"Moby Dick\",\n        \"author\": \"Herman Melville\",\n        \"publishedYear\": 1851\n    },\n    {\n        \"id\": \"d1a5e4ef-c1be-45b8-aa81-2bcdc86c9439\",\n        \"title\": \"War and Peace\",\n        \"author\": \"Leo Tolstoy\",\n        \"publishedYear\": 1869\n    },\n    {\n        \"id\": \"c57f9f15-12f0-4279-af36-91c892b87de3\",\n        \"title\": \"The Alchemist\",\n        \"author\": \"Paulo Coelho\",\n        \"publishedYear\": 1988\n    },\n    {\n        \"id\": \"69ab5fa8-a3e7-498f-a072-8d26be898572\",\n        \"title\": \"1984\",\n        \"author\": \"George Orwell\",\n        \"publishedYear\": 1949\n    },\n    {\n        \"id\": \"12e4ce99-016f-4c81-b1ae-63fb1e43706b\",\n        \"title\": \"Pride and Prejudice\",\n        \"author\": \"Jane Austen\",\n        \"publishedYear\": 1813\n    },\n    {\n        \"id\": \"039f7ec6-5212-4293-8555-8b7ef177f838\",\n        \"title\": \"The Great Gatsby\",\n        \"author\": \"F. Scott Fitzgerald\",\n        \"publishedYear\": 1925\n    },\n    {\n        \"id\": \"34d0b377-075d-4b85-8069-8a078f6de4c3\",\n        \"title\": \"The Alchemist\",\n        \"author\": \"Paulo Coelho\",\n        \"publishedYear\": 1988\n    },\n    {\n        \"id\": \"b02749cf-3668-4a82-8e3e-880312d80707\",\n        \"title\": \"1984\",\n        \"author\": \"George Orwell\",\n        \"publishedYear\": 1949\n    },\n    {\n        \"id\": \"bc8483cd-54d2-416e-9cc9-0e2ff04e6e9e\",\n        \"title\": \"Pride and Prejudice\",\n        \"author\": \"Jane Austen\",\n        \"publishedYear\": 1813\n    },\n    {\n        \"id\": \"597c33a4-a8fc-4d9e-b980-f67e2c66ec50\",\n        \"title\": \"The Great Gatsby\",\n        \"author\": \"F. Scott Fitzgerald\",\n        \"publishedYear\": 1925\n    },\n    {\n        \"id\": \"1196c6b1-3e50-4b79-907e-d6a686549647\",\n        \"title\": \"To Kill a Mockingbird\",\n        \"author\": \"Harper Lee\",\n        \"publishedYear\": 1960\n    },\n    {\n        \"id\": \"b43e9981-fe63-488a-8459-e7e73a4cfb1d\",\n        \"title\": \"The Alchemist\",\n        \"author\": \"Paulo Coelho\",\n        \"publishedYear\": 1988\n    },\n    {\n        \"id\": \"4edd70bd-1393-42b2-9685-3dc25bdc6f4a\",\n        \"title\": \"1984\",\n        \"author\": \"George Orwell\",\n        \"publishedYear\": 1949\n    },\n    {\n        \"id\": \"f3f65a13-1d52-4ec5-a466-f6a419841b19\",\n        \"title\": \"Pride and Prejudice\",\n        \"author\": \"Jane Austen\",\n        \"publishedYear\": 1813\n    },\n    {\n        \"id\": \"d7f6bd54-17e0-4ba8-ba8e-c15220434963\",\n        \"title\": \"The Great Gatsby\",\n        \"author\": \"F. Scott Fitzgerald\",\n        \"publishedYear\": 1925\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "GET request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "GET request example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/books/58f072ae-49fe-4615-877e-11db6e7f5d32",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"books",
+								"58f072ae-49fe-4615-877e-11db6e7f5d32"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": "{\n    \"id\": \"58f072ae-49fe-4615-877e-11db6e7f5d32\",\n    \"title\": \"The White Tiger\",\n    \"author\": \"Aravind Adiga\",\n    \"publishedYear\": 2003\n}"
+				}
+			]
+		},
+		{
+			"name": "POST request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "POST example request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"The Alchemist\",\r\n  \"author\": \"Paulo Coelho\",\r\n  \"publishedYear\": 1988\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/books/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"books",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": "{\r\n    \"message\": \"Book added successfully\",\r\n    \"book\": {\r\n        \"id\": \"daccad5b-75b2-44c6-a284-7f77d58dbcb9\",\r\n        \"title\": \"The Alchemist\",\r\n        \"author\": \"Paulo Coelho\",\r\n        \"publishedYear\": 1988\r\n    }\r\n}"
+				}
+			]
+		},
+		{
+			"name": "PUT request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "PUT request example",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"The Alchemist\",\r\n  \"author\": \"Paulo Coelho\",\r\n  \"publishedYear\": 1988\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/books/58f072ae-49fe-4615-877e-11db6e7f5d32",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"books",
+								"58f072ae-49fe-4615-877e-11db6e7f5d32"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": "{\r\n    \"id\": \"58f072ae-49fe-4615-877e-11db6e7f5d32\",\r\n    \"title\": \"The White Tiger\",\r\n    \"author\": \"Aravind Adiga\",\r\n    \"publishedYear\": 2003\r\n}"
+				}
+			]
+		},
+		{
+			"name": "DELETE request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "DELETE request example",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/books/58f072ae-49fe-4615-877e-11db6e7f5d32",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"books",
+								"58f072ae-49fe-4615-877e-11db6e7f5d32"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": "{\r\n    \"message\": \"Book deleted succesfully\"\r\n}"
+				}
+			]
+		},
+		{
+			"name": "POST request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "POST request example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/lenovo/book_management_api/books.csv"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/books/import",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"books",
+								"import"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": "{\r\n    \"message\": \"Books imported successfully\",\r\n    \"booksAdded\": 4,\r\n    \"errors\": []\r\n}"
+				}
+			]
+		}
+	]
+}
