@@ -70,4 +70,25 @@ book-management-api/
 └── README.md            # Documentation
 
 
-   
+   #######################
+
+   ## Postman Collection
+
+You can find the exported Postman collection here:  
+[book_management_api.postman_apis](## Postman Collection
+
+You can find the exported Postman collection here:  
+[book_management_api.postman_apis](https://github.com/nousheen74/book-management-api/blob/8e864e714bf6aabce195095b5d1491f1aabddc76/book_management_api.postman_apis)
+
+**Raw file for direct import:**  
+https://raw.githubusercontent.com/nousheen74/book-management-api/8e864e714bf6aabce195095b5d1491f1aabddc76/book_management_api.postman_apis
+
+### How to Import
+
+1. Download the `.postman_apis` file from the link above.
+2. Open Postman.
+3. Click the **Import** button.
+4. Select the downloaded file.
+5. The collection will appear in your Postman workspace.)
+
+
